@@ -14,7 +14,6 @@
     <artifactId>flink01-start</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
-
         <!--******************* 日志 *******************-->
         <dependency>
             <groupId>org.slf4j</groupId>
