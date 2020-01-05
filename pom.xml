@@ -11,6 +11,7 @@
 
     <modules>
         <module>flink01-start</module>
+        <module>flink-ETL</module>
     </modules>
 
     <properties>
@@ -19,6 +20,8 @@
         <slf4j.version>1.7.7</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.18.10</lombok.version>
+        <kafka.version>1.0.0</kafka.version>
+        <influxdb.version>2.11</influxdb.version>
         <!--        <main.class>ETLTask</main.class>-->
     </properties>
 
@@ -55,6 +58,19 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <!--******************* 日志 *******************-->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+            <!--<scope>runtime</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+            <!--<scope>runtime</scope>-->
         </dependency>
     </dependencies>
     <build>
