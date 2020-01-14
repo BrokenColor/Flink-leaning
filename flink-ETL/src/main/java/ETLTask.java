@@ -11,7 +11,7 @@ import source.KafkaSource;
 import java.util.List;
 
 /**
- * Description: Kafka->flink->influxdb 冀北数据对齐
+ * Description: Kafka->flink->influxdb
  * <p>
  * Author: GWL
  * Date: Create in 15:04 2019/12/23

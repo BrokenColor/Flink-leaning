@@ -13,9 +13,10 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Auther dier
- * @Date 10/16/2019 11:30
- * @Description
+ * Description: influxdb
+ * <p>
+ * Author: GWL
+ * Date: Create in 15:04 2019/12/23
  */
 public class InfAlignDataBatchSink extends RichSinkFunction<InfAlignData> {
     public static Logger logger = LoggerFactory.getLogger(InfAlignDataBatchSink.class);

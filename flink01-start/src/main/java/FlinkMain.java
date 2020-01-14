@@ -25,7 +25,7 @@ public class FlinkMain {
                 for (String token : tokens) {
                     if (token.length() > 0) {
                         collector.collect(new Tuple2<String, Integer>(token, 1));
-                    }
+                    }                    
                 }
             }
         }).keyBy(0).timeWindow(Time.seconds(5)).sum(1);
